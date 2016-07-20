@@ -1,0 +1,32 @@
+// base
+@import "partials/base/normalize";
+@import "partials/base/print";
+@import "partials/base/font";
+
+// vendors
+@import "partials/vendors/bourbon/bourbon";
+@import "partials/vendors/owl/owl.carousel";
+@import "partials/vendors/slick/slick";
+@import "partials/vendors/font-awesome/font-awesome";
+
+// helpers
+@import "partials/helpers/variables";
+@import "partials/helpers/mixins";
+@import "partials/helpers/global";
+@import "partials/helpers/functions";
+@import "partials/helpers/placeholder";
+
+// layout
+@import "partials/layout/grid";
+@import "partials/layout/header";
+@import "partials/layout/footer";
+@import "partials/layout/sidebar";
+
+// components
+@import "partials/components/button";
+@import "partials/components/forms";
+@import "partials/components/carousel";
+@import "partials/components/slider-text";
+
+// pages
+@import "partials/pages/home";
